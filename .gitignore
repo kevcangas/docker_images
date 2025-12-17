@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+venv
+
+
+rust_environment/files/**/.git
+rust_environment/files/**/.gitignore
+rust_environment/files/**/target
+rust_environment/files/**/data
+
+.env

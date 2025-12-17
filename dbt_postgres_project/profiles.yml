@@ -1,0 +1,12 @@
+perfil_ventas:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres-dw
+      user: admin
+      password: password
+      port: 5432
+      dbname: analytics_db
+      schema: public
+      threads: 1

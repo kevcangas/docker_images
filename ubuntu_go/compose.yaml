@@ -1,0 +1,11 @@
+services:
+  
+  server:
+    build: .
+    volumes:
+      - storage-go:/root
+    ports:
+      - "2222:22"
+  
+volumes:
+  storage-go: 

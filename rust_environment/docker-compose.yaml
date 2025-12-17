@@ -1,0 +1,7 @@
+services:
+  rust:
+    image: rust:alpine3.22
+    volumes:
+      - ./files:/usr/rust
+    command: tail -f /dev/null
+    user: root

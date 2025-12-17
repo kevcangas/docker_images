@@ -1,0 +1,13 @@
+name: 'proyecto_ventas'
+version: '1.0.0'
+config-version: 2
+profile: 'perfil_ventas'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]  # Importante: dbt debe saber dónde buscar los CSV
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+models:
+  proyecto_ventas:
+    +materialized: view

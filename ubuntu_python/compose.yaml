@@ -1,0 +1,11 @@
+services:
+  
+  server:
+    build: .
+    volumes:
+      - storage-server-1:/root
+    ports:
+      - "2222:22"
+  
+volumes:
+  storage-server-1: 

@@ -1,0 +1,7 @@
+id,producto,monto,pais,estado
+1,Laptop,1200,MX,completado
+2,Mouse,20,AR,completado
+3,Teclado,50,MX,pendiente
+4,Monitor,300,MX,completado
+5,Licencia,100,ES,completado
+6,Silla,150,MX,cancelado

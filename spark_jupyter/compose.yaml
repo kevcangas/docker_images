@@ -1,0 +1,12 @@
+services:
+  
+  server:
+    build: .
+    volumes:
+      - spark-storage:/root
+    ports:
+      - "2222:22"
+      - "9999:9999"
+  
+volumes:
+  spark-storage: 
